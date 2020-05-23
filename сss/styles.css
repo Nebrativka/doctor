@@ -1,0 +1,29 @@
+body {
+    background-color: #111111;
+}
+
+
+/* Цвет оснного цвета #d0d0d0 */
+
+.nav__link {
+    list-style-type: none;
+    color: #d0d0d0;
+}
+
+.nav__link a {
+    color: #d0d0d0;
+    text-decoration: none;
+}
+
+
+/* HERO */
+
+.hero-button {
+    display: inline-block;
+    color: #fef6f3;
+    padding: 13px 17px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #eb592a;
+    border-radius: 10px;
+}
