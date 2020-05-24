@@ -11,27 +11,30 @@
 <body>
 
     <header>
-        <div class="container">
-            <nav class="main-nav">
-                <a href="/"><img src="./img/logo.png" alt="логотип мастерской"></a>
-                <ul class="nav__link">
-                    <li><a href="#">Главная</a></li>
-                    <li><a href="#">Акции</a></li>
-                    <li><a href="#">Ремонт</a></li>
-                    <li><a href="#">Доставка</a></li>
-                    <li><a href="#">Гарантия</a></li>
-                    <li><a href="#">Оплата</a></li>
-                    <li><a href="#">Статус ремонта</a></li>
-                    <li><a href="#">Контакты</a></li>
-                </ul>
-            </nav>
+        <div class="header-nav">
+            <div class="container">
+                <nav class="main-nav">
+                    <a href="/" class="header-logo"><img src="./img/logo.png" alt="логотип мастерской"></a>
+                    <ul class="nav__link">
+                        <li class="item"><a href="#">Главная</a></li>
+                        <li class="item"><a href="#">Акции</a></li>
+                        <li class="item"><a href="#">Ремонт</a></li>
+                        <li class="item"><a href="#">Доставка</a></li>
+                        <li class="item"><a href="#">Гарантия</a></li>
+                        <li class="item"><a href="#">Оплата</a></li>
+                        <li class="item"><a href="#">Статус ремонта</a></li>
+                        <li class="item"><a href="#">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
     <!-- HERO -->
-    <section>
+    <section class="hero">
         <div class="container">
             <h1 class="hero-title">Doctor Mobi Service – <br>мы лечим смартфоны</h1>
             <a href="#" class="hero-button">Заявка на ремонт</a>
+            <!-- <img src="./img/hero1.png" alt="ремонтируемая техника" width="556" height="398" class="hero-img"> -->
         </div>
     </section>
 
@@ -40,10 +43,22 @@
         <div class="container">
             <h1 class="repairs-title">Ремонт</h1>
             <ul class="repairs-list">
-                <li><a href="#">Смартфоны</a></li>
-                <li><a href="#">Планшеты</a></li>
-                <li><a href="#">Ноутбуки</a></li>
-                <li><a href="#">Гаджеты</a></li>
+                <li>
+                    <h2>Смартфоны</h2>
+                    <img src="./img/smart.svg" alt="">
+                </li>
+                <li>
+                    <h2>Планшеты</h2>
+                    <img src="./img/tops.svg" alt="">
+                </li>
+                <li>
+                    <h2>Ноутбуки</h2>
+                    <img src="./img/not.svg" alt="">
+                </li>
+                <li>
+                    <h2>Гаджеты</h2>
+                    <img src="./img/watch.svg" alt="">
+                </li>
             </ul>
         </div>
     </section>
@@ -63,11 +78,15 @@
     </section>
     <!-- КОНТАКТЫ -->
     <section>
-        <h1>Контакты</h1>
+        <div class="container">
+            <h1 class="contacts-title">Контакты</h1>
+        </div>
     </section>
     <!-- ОТЗЫВЫ -->
     <section>
-
+        <div class="container">
+            <h1 class="reviews-title">Отзывы</h1>
+        </div>
     </section>
 
     <footer>

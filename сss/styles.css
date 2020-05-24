@@ -1,3 +1,13 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 body {
     background-color: #111111;
 }
@@ -12,12 +22,48 @@ body {
 
 /* Цвет оснного цвета #d0d0d0 */
 
+
+/* цвет бека в навигации #333333 */
+
+
+/* НАВИГАЦИЯ */
+
+.header-nav {
+    margin-top: 64px;
+    background-color: #333333;
+    /* Установит стили верхней рамки */
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #d8d8d8;
+    /* Установит стили нижней рамки */
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #d8d8d8;
+}
+
+.header-logo {
+    margin-right: 72px;
+}
+
 .nav__link {
     list-style-type: none;
     color: #d0d0d0;
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
+    display: flex;
+}
+
+.nav__link .item {
+    display: block;
+    /* outline: solid 1px tomato; */
+    margin-right: 65px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+}
+
+.nav__link .item:last-child {
+    margin-right: 0;
 }
 
 .nav__link a {
@@ -27,6 +73,7 @@ body {
 
 .main-nav {
     display: flex;
+    align-items: center;
 }
 
 
@@ -61,10 +108,12 @@ body {
     text-transform: uppercase;
     font-size: 36px;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 40px;
 }
 
 .repairs-list {
+    display: flex;
+    justify-content: space-between;
     color: #ffffff;
     list-style-type: none;
     font-size: 21px;
@@ -76,6 +125,12 @@ body {
 .repairs-list a {
     color: #ffffff;
     text-decoration: none;
+}
+
+.repairs-list li {
+    border: 2px solid #959595;
+    padding-top: 20px;
+    border-radius: 10px;
 }
 
 
@@ -91,6 +146,8 @@ body {
     color: #727272;
     margin-top: 0;
     margin-bottom: 0;
+    line-height: 1.2;
+    font-size: 24px;
 }
 
 
@@ -98,6 +155,29 @@ body {
 
 .change_title {
     color: #ffffff;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+/* КОНТАКТЫ */
+
+.contacts-title {
+    color: #ffffff;
+    line-height: 0.6;
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+/* ОТЗЫВЫ */
+
+.reviews-title {
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 0.6;
+    font-size: 36px;
     margin-top: 0;
     margin-bottom: 0;
 }
