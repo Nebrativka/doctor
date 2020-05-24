@@ -2,17 +2,31 @@ body {
     background-color: #111111;
 }
 
+.container {
+    width: 1157px;
+    outline: solid 1px tomato;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 /* Цвет оснного цвета #d0d0d0 */
 
 .nav__link {
     list-style-type: none;
     color: #d0d0d0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
 }
 
 .nav__link a {
     color: #d0d0d0;
     text-decoration: none;
+}
+
+.main-nav {
+    display: flex;
 }
 
 
@@ -26,11 +40,16 @@ body {
     text-align: center;
     background-color: #eb592a;
     border-radius: 10px;
+    margin-left: 44px;
+    margin-top: 40px;
 }
 
 .hero-title {
     color: #ffffff;
-    font-size: 48px
+    font-size: 48px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 44px;
 }
 
 
@@ -41,15 +60,44 @@ body {
     text-align: center;
     text-transform: uppercase;
     font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .repairs-list {
     color: #ffffff;
     list-style-type: none;
-    font-size: 21px
+    font-size: 21px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
 }
 
 .repairs-list a {
     color: #ffffff;
     text-decoration: none;
+}
+
+
+/* ПОЧЕМУ ДОКТОР */
+
+.doc-title {
+    color: #ffffff;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.doc-text {
+    color: #727272;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+/* <!-- Меняем деньги на технику -->*/
+
+.change_title {
+    color: #ffffff;
+    margin-top: 0;
+    margin-bottom: 0;
 }
