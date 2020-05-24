@@ -79,6 +79,13 @@ body {
 
 /* HERO */
 
+.conteiner-hero {
+    position: relative;
+    width: 1157px;
+    height: 331px;
+    padding-left: 44px;
+}
+
 .hero-button {
     display: inline-block;
     color: #fef6f3;
@@ -87,16 +94,24 @@ body {
     text-align: center;
     background-color: #eb592a;
     border-radius: 10px;
-    margin-left: 44px;
+    /* margin-left: 44px; */
     margin-top: 40px;
 }
 
 .hero-title {
     color: #ffffff;
     font-size: 48px;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 44px;
+    margin-top: 106px;
+    margin-bottom: 106px;
+    /* margin-left: 44px; */
+    text-shadow: 1px 1px 30px rgba(193, 181, 177, 1);
+}
+
+.hero-img {
+    position: absolute;
+    z-index: -1;
+    left: 523px;
+    top: -204px;
 }
 
 
@@ -130,7 +145,18 @@ body {
 .repairs-list li {
     border: 2px solid #959595;
     padding-top: 20px;
+    padding-left: 18px;
+    padding-right: 58px;
+    padding-bottom: 41px;
     border-radius: 10px;
+    width: 250px;
+    height: 251px;
+}
+
+.repair-list__title {
+    margin-top: 0;
+    margin-bottom: 39px;
+    text-align: left;
 }
 
 
