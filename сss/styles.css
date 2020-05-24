@@ -94,15 +94,14 @@ body {
     text-align: center;
     background-color: #eb592a;
     border-radius: 10px;
-    /* margin-left: 44px; */
-    margin-top: 40px;
+    margin-bottom: 68px;
 }
 
 .hero-title {
     color: #ffffff;
     font-size: 48px;
     margin-top: 106px;
-    margin-bottom: 106px;
+    margin-bottom: 40px;
     /* margin-left: 44px; */
     text-shadow: 1px 1px 30px rgba(193, 181, 177, 1);
 }
