@@ -14,7 +14,7 @@ body {
 
 .container {
     width: 1157px;
-    outline: solid 1px tomato;
+    /* outline: solid 1px tomato; */
     margin-left: auto;
     margin-right: auto;
 }
