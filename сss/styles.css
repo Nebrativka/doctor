@@ -116,6 +116,10 @@ body {
 
 /* РЕМОНТ */
 
+.repairs {
+    padding-bottom: 94px;
+}
+
 .repairs-title {
     color: #ffffff;
     text-align: center;
@@ -134,6 +138,8 @@ body {
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
+    margin-left: 44px;
+    margin-right: 44px;
 }
 
 .repairs-list a {
@@ -153,35 +159,132 @@ body {
 }
 
 .repair-list__title {
+    display: block;
     margin-top: 0;
-    margin-bottom: 39px;
+    margin-bottom: 21px;
     text-align: left;
+}
+
+.hend {
+    /* display: block; */
+    margin-left: 29px;
+    /* margin-right: 59px; */
+    /* margin-bottom: 12px; */
+    margin-top: -10px;
+}
+
+.watch {
+    margin-left: 70px;
+}
+
+.noyt {
+    margin-left: 20px;
+}
+
+.tops {
+    margin-left: 50px;
 }
 
 
 /* ПОЧЕМУ ДОКТОР */
 
+.doctor {
+    padding-bottom: 94px;
+}
+
+.money {
+    display: flex;
+    justify-content: space-between;
+}
+
 .doc-title {
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
     color: #ffffff;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 42px;
 }
 
 .doc-text {
-    color: #727272;
+    width: 806px;
+    color: #d8d8d8;
     margin-top: 0;
     margin-bottom: 0;
     line-height: 1.2;
     font-size: 24px;
+    font-family: "Arial MT";
+    margin-left: 44px;
+}
+
+.doc-img {
+    width: 190px;
+    height: 190px;
+    border: 2px solid #d8d8d8;
+    border-radius: 50%;
+    background-image: url('../img/doc.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 44px;
+    /* margin-bottom: 20px; */
 }
 
 
 /* <!-- Меняем деньги на технику -->*/
 
+.text-change {
+    margin-left: 67px;
+    /* width: 498px;
+    height: 81px; */
+}
+
+.img-flex {
+    display: flex;
+}
+
+.ex-flex {
+    display: flex;
+}
+
+.arrow {
+    display: block;
+    margin-left: 25px;
+    padding-right: 25px;
+    margin-top: 65px
+}
+
+.cont {
+    margin-left: 47px;
+    width: 200px;
+    height: 201px;
+    border: 2px solid #959595;
+    border-radius: 10px;
+    background-image: url('../img/crash.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.conte {
+    width: 200px;
+    height: 201px;
+    border: 2px solid #959595;
+    border-radius: 10px;
+    background-image: url('../img/hend.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.exchange {
+    padding-bottom: 94px;
+}
+
 .change_title {
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
     color: #ffffff;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 42px;
 }
 
 
