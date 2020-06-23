@@ -12,6 +12,14 @@ body {
     background-color: #111111;
 }
 
+p {
+     letter-spacing: 1px;
+}
+
+h1, h2, h3 {
+    letter-spacing: 1px;
+}
+
 .container {
     width: 1157px;
     /* outline: solid 1px tomato; */
