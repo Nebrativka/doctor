@@ -393,6 +393,10 @@ justify-content:space-between;
 .ftr-first-list {
     margin-left: 110px;
 }
+.ftr-first-list h2 {
+    margin-left: 37px;
+}
+
 .ftr-secondary-list {
     margin-left: 110px;
 }
@@ -400,4 +404,8 @@ justify-content:space-between;
 .ftr-first-list .ftr-secondary-list {
     display: block;
  
+}
+
+.ftr-secondary-list h2{
+    margin-left: 37px;
 }
