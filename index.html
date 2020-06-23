@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css" />
     <link rel="stylesheet" href="./сss/styles.css">
     <title>Ремонт телефоном Ирпень</title>
 </head>
@@ -17,12 +19,12 @@
                     <a href="/" class="header-logo"><img src="./img/logo.png" alt="логотип мастерской"></a>
                     <ul class="nav__link">
                         <li class="item"><a href="#">Главная</a></li>
-                        <li class="item"><a href="#">Акции</a></li>
+                        <!-- <li class="item"><a href="#">Акции</a></li> -->
                         <li class="item"><a href="#">Ремонт</a></li>
-                        <li class="item"><a href="#">Доставка</a></li>
+                        <!-- <li class="item"><a href="#">Доставка</a></li> -->
                         <li class="item"><a href="#">Гарантия</a></li>
-                        <li class="item"><a href="#">Оплата</a></li>
-                        <li class="item"><a href="#">Статус ремонта</a></li>
+                        <!-- <li class="item"><a href="#">Оплата</a></li>
+                        <li class="item"><a href="#">Статус ремонта</a></li> -->
                         <li class="item"><a href="#">Контакты</a></li>
                     </ul>
                 </nav>
@@ -33,7 +35,11 @@
     <section class="hero">
         <div class="container conteiner-hero">
             <h1 class="hero-title">Doctor Mobi Service – <br>мы лечим смартфоны</h1>
-            <a href="#" class="hero-button">Заявка на ремонт</a>
+            <!-- <a href="#" class="hero-button">Заявка на ремонт</a> -->
+            <button class="hero-button">Заявка на ремонт</button>
+            <form class="backdrop is-hidden" data-modal>
+
+            </form>
             <img src="./img/hero1.png" alt="ремонтируемая техника" width="556" height="398" class="hero-img">
         </div>
     </section>
@@ -91,55 +97,89 @@
                     </div>
                     <div class="conte"></div>
                 </div>
-                <p class="doc-text text-change">У Вас есть старый или неисправный гаджет?Приносите его к нам и получите
+                <p class="doc-text text-change">У Вас есть старый или неисправный гаджет? Приносите его к нам и получите
                     денежное вознаграждение.</p>
             </div>
         </div>
     </section>
     <!-- КОНТАКТЫ -->
-    <section>
+    <section class="contacts">
         <div class="container">
             <h1 class="contacts-title">Контакты</h1>
             <div class="maps">
-                <iframe
+                <p>"Грибоедова"</p>
+                <iframe class="map"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2536.6722321261527!2d30.237666816099647!3d50.52166517948524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472b33d49d3eae35%3A0x5ed6faa80c758ffe!2z0YPQuy4g0JPRgNC40LHQvtC10LTQvtCy0LAsIDEzLCDQmNGA0L_QtdC90YwsINCa0LjQtdCy0YHQutCw0Y8g0L7QsdC70LDRgdGC0YwsIDA4MjAw!5e0!3m2!1sru!2sua!4v1590944492862!5m2!1sru!2sua"
-                    width="492" height="253" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    width="100%" height="253" frameborder="0" style="border:04;" allowfullscreen="" aria-hidden="false"
                     tabindex="0"></iframe>
+                <div class="cont-flex">
+                    <p><span class="span">Гарфик работы:<br>
+                            Пн-Вс - с 10:00 до 19:00<br>
+                            Без Выходных!<br>
+                            Адрес: г. Ирпень<br>
+                            Грибоедова 13
+                        </span>
+                    </p>
+                    <p>
+                        <span class="span">
+                            E-mail: <br>
+                            doc@mobi.com.ua <br>
+                            Телефоны: <br>
+                            +38 (063) 000-00-00 <br>
+                            +38 (063) 000-00-00 <br>
+                        </span>
+                    </p>
+                </div>
             </div>
         </div>
     </section>
     <!-- ОТЗЫВЫ -->
-    <section>
+    <!-- <section>
         <div class="container">
             <h1 class="reviews-title">Отзывы</h1>
         </div>
-    </section>
+    </section> -->
 
     <footer class="footer">
-        <div class="container">
-            <h2 class="ftr-title">Сервисный центр Doctor Mobi</h2>
-            <p class="ftr-text">Восстанавливаем безнадежное. Ремонтируем технику в Киеве. Сервисный центр Doctor Mobi
-                предлагает
-                восстановление практически любых устройств.</p>
-            <section class="ftr-list">
-                <h2>Компания</h2>
-                <ul>
-                    <li>Главная</li>
-                    <li>Акции</li>
-                    <li>Гарантия</li>
-                    <li>Контакты</li>
-                </ul>
-                <h2>Наши услуги</h2>
-                <ul>
-                    <li>Телефоны</li>
-                    <li>Планшеты</li>
-                    <li>Ноутбуки</li>
-                    <li>Компьютеры</li>
-                </ul>
-            </section>
-            <p class="coop">&#169;2014 - 2018 Сервисный центр Doctor Mobi</p>
+        <div class="footer-border">
+            <div class="container">
+                <div class="ftr-flex">
+                    <div class="ftr-about">
+                        <h2 class="ftr-title">Сервисный центр Doctor Mobi</h2>
+                        <p class="ftr-text">Восстанавливаем безнадежное. Ремонтируем <br> технику в Ирпене. Сервисный
+                            центр
+                            Doctor
+                            Mobi<br>
+                            предлагает
+                            восстановление практически<br> любых устройств.</p>
+                    </div>
+                    <section class="ftr-list">
+                        <div class="ftr-first-list">
+                            <h2>Компания</h2>
+                            <ul>
+                                <li>Главная</li>
+                                <li>Акции</li>
+                                <li>Гарантия</li>
+                                <li>Контакты</li>
+                            </ul>
+                        </div>
+                        <div class="ftr-secondary-list">
+                            <h2>Наши услуги</h2>
+                            <ul>
+                                <li>Телефоны</li>
+                                <li>Планшеты</li>
+                                <li>Ноутбуки</li>
+                                <li>Компьютеры</li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+            </div>
         </div>
+        <p class="coop">&#169;2014 - 2018 Сервисный центр Doctor Mobi</p>
     </footer>
+    <!-- Ставим перед закрывающим тегом body -->
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>
