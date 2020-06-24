@@ -72,6 +72,13 @@ h1, h2, h3 {
     padding-bottom: 19px;
 }
 
+.link-nav:hover{
+color: #eb592a;
+}
+.link-nav{
+    transition: color 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .nav__link .item:last-child {
     margin-right: 0;
 }
@@ -109,6 +116,12 @@ h1, h2, h3 {
     padding-bottom: 17px;
     font-weight: bold;
     cursor: pointer;
+    transition: box-shadow 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.hero-button:hover{
+    -webkit-box-shadow: 6px 5px 46px 0px rgba(105,83,13,1);
+-moz-box-shadow: 6px 5px 46px 0px rgba(105,83,13,1);
+box-shadow: 6px 5px 46px 0px rgba(105,83,13,1);
 }
 
 .hero-title {
@@ -185,7 +198,10 @@ h1, h2, h3 {
     /* margin-right: 59px; */
     /* margin-bottom: 12px; */
     margin-top: -10px;
+ 
 }
+
+
 
 .watch {
     margin-left: 70px;
