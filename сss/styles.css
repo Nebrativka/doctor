@@ -351,10 +351,14 @@ justify-content:space-between;
     margin-left: 47px;
     margin-right: 50px;
 }
-
+#map {
+    height: 400px;  /* The height is 400 pixels */
+    width: 100%;  /* The width is the width of the web page */
+}
 .map {
     border: none;
     border-radius: 4px;
+
 }
 
 .maps p {
