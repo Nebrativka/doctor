@@ -14,16 +14,16 @@
 })();
 
 
-// Create the script tag, set the appropriate attributes
-var script = document.createElement('script');
-script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyBY5YQR-X-hVR-9uStDsohPFwiFSp0tCSg&callback=initMap';
-script.defer = true;
-script.async = true;
+// // Create the script tag, set the appropriate attributes
+// var script = document.createElement('script');
+// script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyBY5YQR-X-hVR-9uStDsohPFwiFSp0tCSg&callback=initMap';
+// script.defer = true;
+// script.async = true;
 
-// Attach your callback function to the `window` object
-window.initMap = function () {
-    // JS API is loaded and available
-};
+// // Attach your callback function to the `window` object
+// window.initMap = function () {
+//     // JS API is loaded and available
+// };
 
-// Append the 'script' element to 'head'
-document.head.appendChild(script);
+// // Append the 'script' element to 'head'
+// document.head.appendChild(script);
