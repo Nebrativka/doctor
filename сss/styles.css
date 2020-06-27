@@ -192,9 +192,10 @@ box-shadow: 6px 5px 46px 0px rgba(105,83,13,1);
     margin-bottom: 20px;
 }
 
+
 .form-label {
-    color: #d0d0d0;
     position: absolute;
+    color: #d0d0d0;
     top:50%;
     left: 45px;
     transform: translateY(-50%);
@@ -210,7 +211,8 @@ box-shadow: 6px 5px 46px 0px rgba(105,83,13,1);
     border: 1px solid rgba(33, 33, 33, 0.2);
 }
 
-.form-input:focus + .form-label, .form-input:not(:placeholder-shown) + .form-label {
+.form-input:focus + .form-label, 
+.form-input:not(:placeholder-shown) + .form-label {
     color:#eb592a;
     transform: translateY(-40px);
 }
