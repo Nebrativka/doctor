@@ -142,8 +142,132 @@ box-shadow: 6px 5px 46px 0px rgba(105,83,13,1);
 
 
 /* MODAL WINDOW */
+.modal {
+    position: absolute;
+    min-width: 528px;
+    min-height: 581px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%) scale(1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: white;
+    border: none;
+    border-radius: 6px;
+}
+.modal-title {
+    margin-bottom: 30px;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.backdrop.is-hidden .modal{
+    transform:translate(-50%, -50%) scale(0.9);
+
+}
+
+.backdrop {
+    background-color: rgba(193, 181, 177, 0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.backdrop.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+    
+
+.form-field{
+    position: relative;
+    margin-bottom: 20px;
+}
+
 .form-label {
-    color: white;
+    color: #d0d0d0;
+    position: absolute;
+    top:50%;
+    left: 45px;
+    transform: translateY(-50%);
+    transition: transform 250ms linear;
+}
+.form-input {
+    min-width:448px;
+    min-height:40px;
+    margin: 0 40px;
+    padding: 12px 16px;
+    padding: 10px 20px;
+    border-radius: 3px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+}
+
+.form-input:focus + .form-label, .form-input:not(:placeholder-shown) + .form-label {
+    color:#eb592a;
+    transform: translateY(-40px);
+}
+
+
+.modal-comment {
+    width: 448px;
+    height: 120px;
+    margin: 0 40px;
+    padding: 12px 16px;
+    resize: none;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.modal-comment-label {
+    position: absolute;
+    left: 56px;
+    top: 15px;
+    color: #d0d0d0;
+    line-height: 1.14;
+    letter-spacing: 0.01em;
+    transition: transform 250ms linear;
+}
+.modal-comment:focus + .modal-comment-label,
+  .modal-comment:not(:placeholder-shown) + .modal-comment-label {
+    /* transform: translate(6px, -34px); */
+    transform: translateY(-33px);
+    color: #eb592a;
+
+  }
+
+  .modal-button {
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    text-align: center;
+    align-items: center;
+    color: #fef6f3;
+    padding: 13px 17px;
+    text-decoration: none;
+    background-color: #eb592a;
+    border-radius: 10px;
+    transform: translate(90%, 100%);
+    border: none;
+    padding-bottom: 17px;
+    cursor: pointer;
+    transition: box-shadow 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.modal-button:hover{
+    -webkit-box-shadow: 6px 5px 46px 0px rgba(105,83,13,1);
+-moz-box-shadow: 6px 5px 46px 0px rgba(105,83,13,1);
+box-shadow: 6px 5px 46px 0px rgba(105,83,13,1);
 }
 
 
