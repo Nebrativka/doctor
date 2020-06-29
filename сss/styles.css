@@ -99,7 +99,7 @@ color: #eb592a;
 .conteiner-hero {
     position: relative;
     width: 1157px;
-    height: 331px;
+    /* height: 331px; */
     padding-left: 44px;
 }
 
@@ -575,3 +575,35 @@ justify-content:space-between;
 
 
 /* TRANSFORM */
+
+
+
+
+/* ГАРАНТИЯ */
+
+.guar-title{
+    font-size: 48px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #ffffff;
+     text-shadow: 1px 1px 30px rgba(193, 181, 177, 1);
+}
+
+
+.gual-list{
+    color: white;
+    border-bottom: 1px solid #d7d7d7;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    letter-spacing: 1px
+  
+}
+
+.gual-list-b {
+    border: none;
+}
+
+.guar {
+    margin: 0;
+}
