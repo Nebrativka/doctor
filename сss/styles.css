@@ -10,6 +10,8 @@ html {
 
 body {
     background-color: #111111;
+
+
 }
 
 p {
@@ -22,9 +24,11 @@ h1, h2, h3 {
 
 .container {
     width: 1157px;
-    /* outline: solid 1px tomato; */
+    outline: solid 1px tomato;
     margin-left: auto;
     margin-right: auto;
+
+
 }
 
 
@@ -143,6 +147,7 @@ box-shadow: 6px 5px 46px 0px rgba(105,83,13,1);
 
 /* MODAL WINDOW */
 .modal {
+    
     position: absolute;
     min-width: 528px;
     min-height: 581px;
@@ -171,6 +176,7 @@ box-shadow: 6px 5px 46px 0px rgba(105,83,13,1);
 }
 
 .backdrop {
+    z-index: 1;
     background-color: rgba(193, 181, 177, 0.3);
     position: fixed;
     top: 0;
