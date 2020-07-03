@@ -6,7 +6,7 @@ $mail->CharSet = 'utf-8';
 
 $name = $_POST['name'];
 $phone = $_POST['tel'];
-$email = $_POST['user_email'];
+
 
 //$mail->SMTPDebug = 3;                               // Enable verbose debug output
 
