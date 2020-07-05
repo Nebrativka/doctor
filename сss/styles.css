@@ -23,7 +23,7 @@ h1, h2, h3 {
 }
 
 .container {
-    width: 1157px;
+    max-width: 1200px;
     outline: solid 1px tomato;
     margin-left: auto;
     margin-right: auto;
@@ -102,7 +102,7 @@ color: #eb592a;
 
 .conteiner-hero {
     position: relative;
-    width: 1157px;
+    min-width: 1200px;
     /* height: 331px; */
     padding-left: 44px;
 }
