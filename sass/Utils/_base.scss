@@ -1,0 +1,40 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #111111;
+}
+
+p {
+    letter-spacing: 1px;
+}
+
+h1, h2, h3 {
+   letter-spacing: 1px;
+}
+
+.container {
+//    max-width: 1200px;
+   outline: solid 1px tomato;
+   margin-left: auto;
+   margin-right: auto;
+
+@media screen and (max-width:$mobile) {
+    width: $mobile;
+    }
+    @media screen and (min-width:$desktop) {
+        width: $desktop;
+    }
+}
+
+a {
+    color: #d0d0d0;
+    text-decoration: none;
+}
